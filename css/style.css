@@ -1,0 +1,21 @@
+body {
+  background-color: green;
+}
+
+.section-link {
+  color: red;
+}
+.section-link:hover {
+  opacity: 0.5;
+}
+.section-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+body {
+  background-color: green;
+}
+
+.section-link {
+  color: red;
+
+  &:hover {
+    opacity: .5;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
